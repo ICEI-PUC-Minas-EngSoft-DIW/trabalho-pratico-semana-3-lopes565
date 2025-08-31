@@ -8,10 +8,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Arthur Lopes de Paiva  
+- Matricula: 879488  
+- Proposta de projeto escolhida: Página de Streaming de Filmes  
+- Breve descrição sobre seu projeto: Um site simples inspirado em Netflix  
 
 
 ## Print do(s) wireframe(s) criado
@@ -21,4 +21,5 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home Page](img/Screenshot_1.png)
+

@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lope's Movie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+    <h1>LOPE'S MOVIE</h1>
+    <form class="search-box" onsubmit="pesquisar(event)">
+        <input type="text" id="busca" placeholder="Pesquisar filmes...">
+        <button type="submit">🔍</button>
+    </form>
+</header>
+    <nav>
+        <a href="#">ANTIGOS</a> |
+        <a href="#">NOVOS</a> |
+        <a href="#">EM ALTA</a>
+    </nav>
+    <main>
+        <section>
+            <h2>RECOMENDADOS:</h2>
+            <div class="filmes">
+                <div class="filme"><img src="/2.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/3.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/4.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/5.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/6.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/7.jpg" alt="Capa"></div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Lançamentos Recentes:</h2>
+            <div class="filmes">
+                <div class="filme"><img src="/ultimaceia.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/12.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/11.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/10.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/9.jpg" alt="Capa"></div>
+                <div class="filme"><img src="/8.jpg" alt="Capa"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>INSIRADO EM - NETFLIX</p>
+    </footer>
+    <script>
+        function pesquisar(event) {
+            event.preventDefault(); // não recarrega a página
+            let termo = document.getElementById("busca").value;
+            if (termo.trim() === "") {
+                alert("Digite algo para pesquisar!");
+            } else {
+                alert("Você pesquisou por: " + termo);
+            }
+        }
+    </script>
 </body>
 </html>
